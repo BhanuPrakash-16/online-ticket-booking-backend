@@ -12,7 +12,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**") // apply to all endpoints
-                        .allowedOrigins("http://localhost:5173") // your React app origin
+                        .allowedOrigins("https://online-ticket-booking-s6w7.vercel.app/") // your React app origin
                         .allowedMethods("*")
                         .allowedHeaders("*")
                         .allowCredentials(true);
